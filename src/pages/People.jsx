@@ -24,7 +24,7 @@ const People = () => {
           return (
             <div key={id} className=" col-sm-12 col-md-6 col-lg-4">
               <img
-                onClick={() => navigate(`/people/${id}`)}
+                onClick={() => navigate(`${id}`)}
                 type="button"
                 className="rounded"
                 src={avatar}

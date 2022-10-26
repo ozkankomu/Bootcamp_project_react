@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
@@ -13,12 +13,12 @@ function App() {
     <BrowserRouter>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="people" element={<People />} />
         <Route path="people/:id" element={<PersonDetail />} />
         <Route path="paths" element={<Paths />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Navigate to="/" />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />
