@@ -18,6 +18,7 @@ function App() {
       <Nav />
       <Routes>
         <Route index element={<Home />} />
+        <Route path="Bootcamp_project_react" element={<Home />} />
         <Route path="people" element={<People />} />
         <Route path="people/:id" element={<PersonDetail />} />
 
