@@ -5,7 +5,8 @@
 
 
 
-Recipe App
+Sketch project
+
 ## Table of contents
 
   - [The challenge](#the-challenge)
