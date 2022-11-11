@@ -70,7 +70,7 @@ SOLUTION
 
 ## Screenshot
 <p align="left">
-<a href="https://ozkankomu.github.io/Bootcamp_project_react/"><img src="screen.gif" alt="screenshot" target=_blanked></a>
+<a href="https://ozkankomu.github.io/Bootcamp_project_react/"><img src="screen1.gif" alt="screenshot" target=_blanked></a>
 </p>
 
 
