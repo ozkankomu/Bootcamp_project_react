@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Bootcamp_project_react/static/css/main.c59cc657.css",
+    "main.js": "/Bootcamp_project_react/static/js/main.c3630562.js",
+    "static/media/logo.png": "/Bootcamp_project_react/static/media/logo.8302021de9fe139838e9.png",
+    "index.html": "/Bootcamp_project_react/index.html",
+    "main.c59cc657.css.map": "/Bootcamp_project_react/static/css/main.c59cc657.css.map",
+    "main.c3630562.js.map": "/Bootcamp_project_react/static/js/main.c3630562.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c59cc657.css",
+    "static/js/main.c3630562.js"
+  ]
+}
