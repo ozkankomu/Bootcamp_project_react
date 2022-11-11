@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<p align="center">
+<a href="https://www.linkedin.com/in/ozkankomu/" target="_blank"><img src="photo1.png" alt="screenshot" target=_blanked></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+Recipe App
+## Table of contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Project Skeleton ](#project-skeleton)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The challenge
+Sketch project for a bootcamp
 
-### `yarn build`
+## Project Skeleton
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Recipe App (folder)
+|
+|----readme.md       
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── header
+│    │       │     ├── Header.js
+│    │       │     ├── Form.js
+│    │       │     └── style.js
+│    │       └── navbar
+│    │             ├── Navbar.js
+│    │             └── style.js
+│    ├── pages
+│    │       ├── about
+│    │       │     ├── About.js
+│    │       │     └── style.js
+│    │       ├── details
+│    │       │     ├── Details.js
+│    │       │     └── style.js
+│    │       ├── login
+│    │       │     ├── Login.js
+│    │       │     └── style.js
+│    │       └── home
+│    │             ├── Home.js
+│    │             ├── RecipeCard.js
+│    │             └── style.js
+│    ├── router
+│    │       ├── AppRouter.js
+│    │       └── PrivateRouter.js
+│    ├── assets
+│    │       └── [images]
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    └── index.css
+├── package.json
+└── yarn.lock
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Screenshot
+<p align="left">
+<a href="https://ozkankomu.github.io/Bootcamp_project_react/"><img src="screen.gif" alt="screenshot" target=_blanked></a>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Links
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://ozkankomu.github.io/Bootcamp_project_react/"> Live Website </a> 
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Built with
+- Browser_Router
+- SCSS custom properties
+- CSS
+- Mobile-first workflow
+- React
 
-## Learn More
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- I used React , 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
 
-### Code Splitting
+- [W3 Schoold](https://www.w3schools.com/) - This helped me for basics of website paradigm. I really liked this pattern and will use it going forward.
+- [MDN](https://developer.mozilla.org/en-US/) - This is an amazing document which helped me finally understand deep sides of web development. I'd recommend it to anyone still learning these concepts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+- Author - [Ozkan]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<center> &#8987; Happy Coding  &#9997; </center>
